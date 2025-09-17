@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daftar Klub Kampus</title>
+  <style>
+    /* Atur background bisa diganti dengan mengubah URL di sini */
+    body 
+        {
+      margin: 0;
+      
+      background-image: url(06.jpg); /* contoh gambar */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: scroll; /* background ikut scroll */
+      min-height:100vh; /* supaya ada scroll */
+      font-family: Arial, sans-serif;
+      color: white;
+      padding: 20px;
+    }
+      
+    
+    .container {
+      max-width: 400px; /* Lebar seperti layar ponsel */
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.5); /* Transparan agar background tetap terlihat */
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .club-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .club-item {
+      text-align: center;
+    }
+    .club-logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .club-logo:hover {
+      transform: scale(1.1);
+    }
+    .club-name {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      text-shadow: 0 0 5px rgba(0,0,0,0.7);
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Daftar UKM Prodi Teknik Sipil</h1>
+    <div class="club-list">
+      <div class="club-item">
+        <a href="club1.html">
+          <img src="03.jpg" alt="Logo Klub Amerta Musik" class="club-logo" />
+          <div class="club-name">AMERTA MUSIK</div>
+        </a>
+      </div>
+      <div class="club-item">
+        <a href="club2.html">
+          <img src="04.jpg" alt="Logo Klub Amerta Tari" class="club-logo" />
+          <div class="club-name">AMERTA TARI</div>
+        </a>
+      </div>
+      <div class="club-item">
+        <a href="club3.html">
+          <img src="01.jpg" alt="Logo Klub CRC" class="club-logo" />
+          <div class="club-name">CRC</div>
+        </a>
+      </div>
+        <div class="club-item">
+        <a href="club4.html">
+          <img src="02.jpg" alt="Logo Klub Barbarians" class="club-logo" />
+          <div class="club-name">BARBARIANS</div>
+        </a>
+      </div>
+      <div class="club-item">
+        <a href="club5.html">
+          <img src="05.jpg" alt="Logo Klub Futsal" class="club-logo" />
+          <div class="club-name">FUTSAL & SEPAK BOLA</div>
+        </a>
+      </div>
+      <div class="club-item">
+        <a href="club6.html">
+          <img src="09.jpg" alt="Logo Klub Bulu Tangkis" class="club-logo" />
+          <div class="club-name">BULU TANGKIS</div>
+        </a>
+      </div>
+   
+      <div class="club-item">
+        <a href="club7.html">
+          <img src="38.jpg" alt="Logo Klub Volly" class="club-logo" />
+          <div class="club-name">VOLLY</div>
+        </a>
+      </div>
+      <div class="club-item">
+        <a href="club8.html">
+          <img src="27.jpg" alt="Logo Klub Basket" class="club-logo" />
+          <div class="club-name">BASKET</div>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
